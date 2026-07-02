@@ -1,0 +1,33 @@
+<html>
+<head>
+<script>
+function showdata()
+{
+var xmlhttp = new XMLHttpRequest();
+var str=document.getElementById("sv").value;
+
+xmlhttp.open("GET","u4p3.php?name="+str,true);
+xmlhttp.onreadystatechange=function()
+{
+if(xmlhttp.readyState==4)
+{
+document.getElementById("info").innerHTML=xmlhttp.responseText;
+}
+
+}
+xmlhttp.send();
+
+}
+</script>
+</head>
+<body>
+select product:
+<select id="sv" onchange="showdata();">
+<option>Leptop</option>
+<option>TV</option>
+<option>PC</option>
+</select>
+<div id="info" style="color:green">
+</div>
+</body>
+</html>
