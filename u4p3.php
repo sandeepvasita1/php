@@ -2,5 +2,5 @@
 
 $n=$_GET["name"];
 
-echo "welcome sandeep : " . " " . $n;
+echo "you select item : " . " " . $n;
 ?>
