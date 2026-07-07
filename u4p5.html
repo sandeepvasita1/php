@@ -1,0 +1,41 @@
+
+<html>
+<head>
+    <title>AJAX Radio Button Example</title>
+
+    <script>
+        function showProduct(product)
+        {
+            var xmlhttp = new XMLHttpRequest();
+
+            xmlhttp.open("GET", "u4p5.php?p=" + product, true);
+
+            xmlhttp.onreadystatechange = function()
+            {
+                if(xmlhttp.readyState == 4)
+                {
+                    document.getElementById("result").innerHTML = xmlhttp.responseText;
+                }
+            };
+
+            xmlhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+
+<h2>Select a Product</h2>
+
+<input type="radio" name="pro" value="Laptop" onclick="showProduct(this.value)"> Laptop<br><br>
+
+<input type="radio" name="pro" value="Mobile" onclick="showProduct(this.value)"> Mobile<br><br>
+
+<input type="radio" name="pro" value="Keyboard" onclick="showProduct(this.value)"> Keyboard<br><br>
+
+<input type="radio" name="pro" value="Mouse" onclick="showProduct(this.value)"> Mouse<br><br>
+
+<div id="result" style="color:green; font-size:20px;"></div>
+
+</body>
+</html>
