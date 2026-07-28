@@ -1,9 +1,9 @@
 <?php
 $students=array(
 array("sandeep",20,"BCA"),
-array("sumit",22,"MCA"),
-array("priti",25,"BCOM"),
-array("sitaben",29,"BBA")
+array("suhani",22,"MCA"),
+array("priya",25,"BCOM"),
+array("jaymini",29,"BBA")
 );
 
 foreach($students as $s)
