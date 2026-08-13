@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <script>
+        function checkMobile()
+        {
+		    var stu_id = document.getElementById("stu_id").value;
+            var name = document.getElementById("name").value;
+            var mob = document.getElementById("mob").value;
+            var country = document.getElementById("country").value;
+
+            var xhttp = new XMLHttpRequest();
+
+            xhttp.onreadystatechange = function()
+            {
+                if (this.readyState == 4 )
+                {
+                    document.getElementById("result").innerHTML =
+                    this.responseText;
+                }
+            };
+
+            xhttp.open(
+    "GET",
+    "u4p13.php?stu_id=" + stu_id +
+    "&name=" + name +
+    "&mob=" + mob +
+    "&country=" + country,
+    true
+);
+
+            xhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+
+<h2>Student Registration</h2>
+student id:
+<input type="text" id="stu_id">
+<br><br>
+
+Student Name:
+<input type="text" id="name">
+<br><br>
+
+Mobile Number:
+<input type="text" id="mob">
+<br><br>
+
+Country:
+<input type="text" id="country">
+<br><br>
+
+<input type="button" value="Register" onclick="checkMobile()">
+
+<br><br>
+
+<div id="result"></div>
+
+</body>
+</html>
