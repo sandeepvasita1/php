@@ -1,3 +1,7 @@
+Create a function that accepts a number as argument and 
+displays sum of digit of a number. E.g. If Number is 123 then 
+sum of Digits is 6 i.e., 1+2+3 =6 Note: Input should be 
+collected from user using an HTML page.
 <html>
 <body>
 <form method="post">
