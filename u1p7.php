@@ -1,3 +1,5 @@
+Accept a two numbers from user. Write a PHP program to 
+Add, Subtract and Multiply the numbers and displays result.
 <html>
 <body>
 <form method="post">
