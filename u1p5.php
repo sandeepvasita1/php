@@ -1,3 +1,5 @@
+Write a PHP program to accept a number from user and find 
+its square and cube.
 <html>
 <body>
 <form method="post">
