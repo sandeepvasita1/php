@@ -1,4 +1,5 @@
-
+Write a PHP program that changes color of the web page 
+using switch case. 
 <html>
 <body style="background-color:
 <?php
