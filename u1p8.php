@@ -1,3 +1,6 @@
+Accept a number from user as “Radius” of a circle. Write 
+PHP program find Area of a Circle.  
+( Area = PI * radius * radius). 
 <html>
 <body>
 <form method="post">
