@@ -1,3 +1,5 @@
+Write a PHP program to print all even numbers till the 
+entered number.
 <html>
 <body>
 <form method="post">
