@@ -1,3 +1,5 @@
+Write a PHP program that prints Fibonacci series ti l the 
+number entered by user. 
 <html>
 <body>
 <form method="post">
