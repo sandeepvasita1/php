@@ -1,3 +1,6 @@
+Create a function that accepts 3 numbers as parameters and 
+check whether the sum of 3 numbers is prime or not. Note: 
+Input should be collected from user using an HTML page. 
 <html>
 <body>
 <form method="post">
