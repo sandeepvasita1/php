@@ -1,3 +1,5 @@
+Write a PHP program to find sum of n numbers. Take input 
+from user.
 <html>
 <body>
 <form method="post">
