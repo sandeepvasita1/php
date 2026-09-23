@@ -1,3 +1,5 @@
+Write a PHP program to find maximum number from the two 
+numbers entered by user 
 <html>
 <body>
 <form method="post">
