@@ -1,3 +1,5 @@
+Accept a string from user. Write PHP program to check 
+whether that entered string is palindrome or not. 
 <html>
 <body>
 <form method="post">
