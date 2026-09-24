@@ -1,3 +1,6 @@
+Create an array named $sub, assign five elements to it 
+and display the elements assigned using for loop and 
+foreach statement 
 <?php
 $sub=array("math","science","english","hindi");
 
