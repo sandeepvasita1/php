@@ -1,3 +1,5 @@
+Write a program in PHP to demonstrate the use of 
+multidimensional arrays. 
 <?php
 $students=array(
 array("sandeep",20,"BCA"),
