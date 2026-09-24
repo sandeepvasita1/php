@@ -1,3 +1,6 @@
+Write a PHP program that checks whether the element is 
+exists in the array or not. Give acknowledgement from the 
+same. 
 <?php
 $a=array("java","python","html","php");
 
