@@ -1,3 +1,5 @@
+Write a program to count the total number of times a 
+specific value appears in an array. 
 <?php
 $a=array(5,10,20,15,5,10,30);
 $search=5;
