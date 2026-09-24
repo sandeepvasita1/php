@@ -1,3 +1,5 @@
+Write a PHP program that deletes duplicate values from 
+array. 
 <?php
 $a=array(10,10,20,30,40,50,60);
 
