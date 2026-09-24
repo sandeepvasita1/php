@@ -1,3 +1,6 @@
+Create an array named $student that stores 5 elements 
+bounded to different keys and access the same using the 
+key element
 <?php
 $student=array("name"=>"sandeep","age"=>20,"course"=>"BCA","roll_no"=>101,"city"=>"Ahmedabad");
 
