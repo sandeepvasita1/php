@@ -1,3 +1,4 @@
+Create an associative array and display its elements.
 <?php
 $s=array("name"=>"sandeep","age"=>20,"copursse"=>"BCA","city"=>"AHmedabad");
 
